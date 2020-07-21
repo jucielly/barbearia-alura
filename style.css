@@ -1,0 +1,289 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+ min-height: 100vh;
+}
+
+main{
+  flex-grow: 1;
+}
+
+.header-background {
+  background-color: #141316;
+  padding: 20px 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.main-nav li {
+  display: inline;
+  font-size: 30px;
+  margin: 0 0 0 15px;
+}
+
+.main-nav a {
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+  transition: 0.3s;
+  font-family: "Roboto Mono", monospace;
+}
+
+.main-nav a:hover {
+  color: #7f6edd;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.products-list {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.products-list li {
+  font-family: "Roboto Mono", monospace;
+  padding: 50px 0;
+  width: 30%;
+  text-align: center;
+  border: 1px solid #27252b;
+  border-radius: 7px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: 0.2s;
+}
+
+.products-list li:hover {
+  border-color: #7f6edd;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.products-list h2 {
+  font-weight: bold;
+  font-size: 30px;
+  width: 100%;
+}
+
+.product-price {
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px 0 0;
+}
+
+.footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background: url(imagens/bg.jpg);
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.contact-main {
+  margin: 0 auto;
+  width: 1vh;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.form-field {
+  padding: 10px;
+}
+
+.form-title {
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 2px;
+}
+
+.form-input {
+  padding: 10px 25px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+.form-input:focus {
+  outline: none;
+  border: 1px solid #7f6edd;
+}
+
+.btn {
+  background-color: #7f6edd;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #6d5ad8;
+  cursor: pointer;
+}
+
+.radio-section {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contact-title {
+  font-weight: bold;
+  font-size: 17px;
+  padding: 10px;
+  border-bottom: 1px solid #918f92;
+}
+
+.select-input {
+  width: 100px;
+}
+
+.hours-table {
+  width: 100px;
+  text-align: center;
+}
+
+.hours-table thead {
+  background-color: #27252b;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+.hours-table td,
+th {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* css home*/
+
+.banner {
+  width: 100%;
+  opacity: 70%;
+  transition: .5s;
+}
+
+.banner:hover{
+  opacity: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Roboto Mono", monospace;
+  margin: 0 0 1em;
+  clear: left;
+}
+
+.about-home {
+  text-align: center;
+  margin: 0 0 1em;
+}
+
+.about-home p {
+  margin: 0 0 1em;
+}
+
+.about-home strong {
+  font-weight: bold;
+}
+
+.about-home em {
+  font-style: italic;
+}
+
+.benefits-img {
+  width: 60%;
+}
+
+.utensilios {
+  width: 150px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.mini-title {
+  font-size: 1.5em;
+  margin: 0 0 2em;
+}
+
+.map-container {
+  padding: 3em;
+}
+
+.map {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.video {
+  width: 500px;
+  margin: 4em auto;
+}
+
+.benefits-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.benefits-home li {
+  padding: 1em;
+}
+
+.benefits-home li:first-child {
+  font-weight: bold;
+}
+
+.benefits-img {
+  width: 400px;
+  margin: 10px;
+}
+
+.mini-title::first-letter {
+  font-weight: bold;
+}
+
+.mini-title::after{
+  content: "]";
+}
+
+.mini-title::before {
+  content: "[";
+}
+
+
+

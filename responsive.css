@@ -1,0 +1,51 @@
+/* 480px */
+
+@media (max-width: 480px) {
+  .header-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .benefits-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .video {
+    width: auto;
+    margin: 1em auto;
+  }
+
+  .products-list {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .products-list li {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  .products-list {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .products-list li {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+  }
+}
